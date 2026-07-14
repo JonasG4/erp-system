@@ -1,17 +1,55 @@
 <header
   class="border-b border-slate-200 bg-white px-6 py-4 dark:border-slate-800 dark:bg-slate-900"
 >
-  <div class="flex items-center justify-between">
+  <div class="flex items-center justify-between gap-4">
     <div>
       <h2 class="text-lg font-semibold">Panel administrativo</h2>
-      <p class="text-sm text-slate-500">Sistema para librería y tienda de regalos</p>
+      <p class="text-sm text-slate-500 dark:text-slate-400">
+        Sistema para librería y tienda de regalos
+      </p>
     </div>
 
-    <button
-      type="button"
-      class="rounded-lg border border-slate-300 px-4 py-2 text-sm hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800"
-    >
-      Cambiar tema
-    </button>
+    <div class="flex items-center gap-3">
+      @if (authService.currentUser()) {
+        <div class="hidden text-right sm:block">
+          <p class="text-sm font-medium">
+            {{ authService.currentUser()?.fullName }}
+          </p>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            {{ authService.currentUser()?.email }}
+          </p>
+        </div>
+      }
+
+      <button
+        type="button"
+        (click)="themeService.toggleTheme()"
+        class="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium transition hover:bg-slate-100 dark:border-slate-700 dark:hover:bg-slate-800"
+      >
+        <span>
+          @if (themeService.isDark()) {
+            ☀️
+          } @else {
+            🌙
+          }
+        </span>
+
+        <span class="hidden sm:inline">
+          @if (themeService.isDark()) {
+            Modo claro
+          } @else {
+            Modo oscuro
+          }
+        </span>
+      </button>
+
+      <button
+        type="button"
+        (click)="authService.logout()"
+        class="rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white"
+      >
+        Salir
+      </button>
+    </div>
   </div>
 </header>
