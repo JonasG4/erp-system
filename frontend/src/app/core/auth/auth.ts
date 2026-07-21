@@ -2,6 +2,12 @@ import { Injectable, computed, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { Observable, delay, of, tap, throwError } from 'rxjs';
 import { AuthSession, AuthUser, LoginRequest } from './auth.models';
+import {
+  ForgotPasswordRequest,
+  ResetPasswordRequest,
+  VerifyResetCodeRequest,
+  VerifyResetCodeResponse,
+} from './auth.models';
 
 const AUTH_STORAGE_KEY = 'erp-system-auth-session';
 
@@ -110,5 +116,50 @@ export class AuthService {
       localStorage.removeItem(AUTH_STORAGE_KEY);
       return null;
     }
+  }
+
+  requestPasswordReset(request: ForgotPasswordRequest): Observable<void> {
+    /**
+     * Temporal mientras no tenemos backend.
+     *
+     * Por seguridad, siempre respondemos igual.
+     * No revelamos si el correo existe o no.
+     */
+
+    return of(void 0).pipe(delay(700));
+  }
+
+  verifyResetCode(request: VerifyResetCodeRequest): Observable<VerifyResetCodeResponse> {
+    /**
+     * Código temporal de prueba:
+     * 123456
+     */
+
+    const isValidCode = request.code === '123456';
+
+    if (!isValidCode) {
+      return throwError(() => new Error('El código ingresado no es válido o ha expirado.'));
+    }
+
+    return of({
+      resetToken: 'mock-reset-token',
+    }).pipe(delay(700));
+  }
+
+  resetPassword(request: ResetPasswordRequest): Observable<void> {
+    /**
+     * Temporal mientras no tenemos backend.
+     * En backend real:
+     * - validar resetToken
+     * - cambiar contraseña
+     * - invalidar token
+     * - invalidar sesiones previas
+     */
+
+    if (!request.resetToken) {
+      return throwError(() => new Error('La solicitud de recuperación no es válida.'));
+    }
+
+    return of(void 0).pipe(delay(700));
   }
 }

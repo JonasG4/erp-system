@@ -2,9 +2,11 @@ import { Routes } from '@angular/router';
 import { MainLayout } from './layout/main-layout/main-layout';
 import { AuthLayout } from './layout/auth-layout/auth-layout';
 import { Login } from './features/auth/login/login';
+
 import { DashboardHome } from './features/dashboard/dashboard-home/dashboard-home';
 import { authGuard } from './core/guards/auth-guard';
 import { guestGuard } from './core/guards/guest-guard';
+import { ForgotPassword } from './features/auth/forgot-password/forgot-password';
 
 export const routes: Routes = [
   {
@@ -15,6 +17,19 @@ export const routes: Routes = [
       {
         path: '',
         component: Login,
+        title: 'Iniciar sesión',
+      },
+    ],
+  },
+  {
+    path: 'forgot-password',
+    component: AuthLayout,
+    canActivate: [guestGuard],
+    children: [
+      {
+        path: '',
+        component: ForgotPassword,
+        title: 'Recuperar contraseña',
       },
     ],
   },
@@ -31,6 +46,7 @@ export const routes: Routes = [
       {
         path: 'dashboard',
         component: DashboardHome,
+        title: 'Dashboard',
       },
     ],
   },

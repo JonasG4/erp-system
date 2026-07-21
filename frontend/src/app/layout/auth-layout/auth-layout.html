@@ -1,8 +1,16 @@
-<!-- <div class="min-h-screen bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100"> -->
 <div
   class="min-h-screen bg-[url('/assets/backgrounds/bg-login-light.png')] bg-no-repeat bg-cover text-slate-900 dark:bg-[url('/assets/backgrounds/bg-login-dark.png')] dark:text-slate-100"
 >
   <app-topbar />
-
-  <router-outlet />
+  <div class="flex min-h-screen items-center justify-center px-4 py-12">
+    <div class="w-full max-w-md">
+      <div class="mb-8">
+        <div
+          class="rounded-lg border border-slate-200 bg-white p-8 shadow-xl dark:border-slate-800 dark:bg-zinc-800"
+        >
+          <router-outlet />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
