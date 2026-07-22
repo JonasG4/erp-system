@@ -42,3 +42,35 @@
 # System files
 /frontend/.DS_Store
 /frontend/Thumbs.db
+
+backend/**/bin/
+backend/**/obj/
+backend/**/TestResults/
+backend/**/.vs/
+
+# User-specific .NET files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local development settings
+backend/**/appsettings.Development.json
+backend/**/appsettings.Local.json
+
+# Logs
+*.log
+logs/
+
+# Docker / Database local data
+docker-data/
+postgres-data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage
+coverage/
+.coverage/
+*.coverage
+*.coveragexml
