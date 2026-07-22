@@ -1,0 +1,12 @@
+c:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\bin\Debug\net10.0\ErpSystem.Contracts.deps.json
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\bin\Debug\net10.0\ErpSystem.Contracts.dll
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\bin\Debug\net10.0\ErpSystem.Contracts.pdb
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.AssemblyInfo.cs
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.sourcelink.json
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.dll
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\refint\ErpSystem.Contracts.dll
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ErpSystem.Contracts.pdb
+c:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Contracts\obj\Debug\net10.0\ref\ErpSystem.Contracts.dll
