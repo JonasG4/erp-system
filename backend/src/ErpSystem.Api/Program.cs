@@ -1,5 +1,13 @@
+using ErpSystem.Infraestructure.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
 builder.Services.AddControllers();
+
+builder.Services.AddInfraestructure(connectionString);
 
 builder.Services.AddCors(options =>
 {

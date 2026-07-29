@@ -18,3 +18,5 @@ C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.In
 C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Infraestructure\obj\Debug\net10.0\refint\ErpSystem.Infraestructure.dll
 C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Infraestructure\obj\Debug\net10.0\ErpSystem.Infraestructure.pdb
 C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Infraestructure\obj\Debug\net10.0\ref\ErpSystem.Infraestructure.dll
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Infraestructure\bin\Debug\net10.0\ErpSystem.Infraestructure.runtimeconfig.json
+C:\Users\super\OneDrive\Escritorio\Portfolio\erp_sistem\backend\src\ErpSystem.Infraestructure\obj\Debug\net10.0\ErpSystem.Infraestructure.genruntimeconfig.cache

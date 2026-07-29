@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
-                "projectPath": "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj"
+              "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
+                "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj"
               },
               "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Domain\\ErpSystem.Domain.csproj": {
                 "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Domain\\ErpSystem.Domain.csproj"
@@ -346,14 +346,14 @@
         }
       }
     },
-    "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
+    "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj",
         "projectName": "ErpSystem.Contracts",
-        "projectPath": "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj",
+        "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj",
         "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config"

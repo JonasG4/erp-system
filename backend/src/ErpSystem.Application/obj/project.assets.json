@@ -68,8 +68,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
-              "projectPath": "c:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj"
+            "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj": {
+              "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Contracts\\ErpSystem.Contracts.csproj"
             },
             "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Domain\\ErpSystem.Domain.csproj": {
               "projectPath": "C:\\Users\\super\\OneDrive\\Escritorio\\Portfolio\\erp_sistem\\backend\\src\\ErpSystem.Domain\\ErpSystem.Domain.csproj"
